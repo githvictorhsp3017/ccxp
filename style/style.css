@@ -1,0 +1,83 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header_body{
+    background-color: #FFD900;
+    height: 55px;
+    padding: 0%;
+}
+
+#header_body img{
+    margin: 12px 1468px 28px 48px;
+}
+
+#section_body{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#reviver {
+    background-color: #514988;
+    text-align: center;
+    color: #FFFF;
+    font-size:17pt;
+}
+
+#reviver h1{
+    margin-top: 31px;
+    color: #F3C61F;
+    font-style: normal;
+    width: 50rem;
+}
+
+#reviver h4{
+    font-weight: 100;
+}
+
+#body_section h3{
+    color: #E33881;
+}
+
+#body_section h3{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+#body_section_2{
+    margin-left: 20px;
+}
+
+#contador{
+    display: flex;
+    justify-content: space-between;
+    color: #514988;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 24pt;
+    margin-left: 20px;
+    margin-right: 110px;
+}
+
+#section_footer{
+    display: grid;
+    grid-auto-flow: column;
+    color: #F3C61F;
+    margin-left: 80px;
+}
+
+#btn_send input{
+    margin-top: 89px;
+    height: 148px;
+    width: 596px;
+    border-radius: 20px;
+    background-color: #514988;
+    color: aliceblue;
+    font-size: 42px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#id_send:hover{
+    background-color: #F3C61F;
+}
